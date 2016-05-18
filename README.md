@@ -3,8 +3,8 @@
 
 The bot will make a post in the specified channel every time a new channel is created (exluding private and archived channels). The post will let everyone know the name and any info that was provided about it.
 
-##### Two example channel bot outputs (one with a channel description and the other without):
-![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/exampleBot.png)
+##### An example channel bot output (with a link to the channel):
+![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/exampleBot2.png)
 
 # Slack Channel Bot Import and Setup
 ##### 1.) Copy the contents of the channelBot.json file into your Node-RED editor using the import clipboard feature.

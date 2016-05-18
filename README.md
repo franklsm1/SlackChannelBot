@@ -8,10 +8,10 @@ Two example channel bot outputs (one with a channel description and the other wi
 
 # Import and setup
 1.) Copy the contents of the channelBot.json file and import the file contents by using the import clipboard feature in node-Red
-![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/import.png)
+![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/import.PNG)
 
 After importing your flow should look similar to this:
-![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/nodeFlow.png)
+![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/nodeFlow.PNG)
 
 2.) Next you will need to update the 4 nodes outlined in red from the above image.
   -For the "Get Slack Channel List" node you will need to create a new slack bot, https://my.slack.com/services/new/bot, and then replace the text "<Slack API Bot Token Goes Here>" with the API token you are given for your bot into the node.

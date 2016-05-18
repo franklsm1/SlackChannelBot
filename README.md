@@ -23,7 +23,7 @@ The bot will make a post in the specified channel every time a new channel is cr
   
   -For both of the "Channel count message" and "Update channel count" Cloudant DB nodes you will need to select the cloudant DB service that is running with your Node.js application and update the database name that is setup for your service (if using the Node-Red boilerplate in Bluemix the default name of the database is "nodered").
   
-##### 3.)Next you will need to create a new document inside your cloudant DB with the following properties:
+##### 3.) Next you will need to create a new document inside your cloudant DB with the following properties:
   
   {
     "_id": "channelCount",

@@ -32,4 +32,4 @@ The bot will make a post in the specified channel every time a new channel is cr
   
   -The count value can be left at 0 (the bot will make an initial post to update the value) or you can set it to your current channel count (not including archived and private channels)
   
-##### 4.) Finally deploy the application and you slack bot is up and running!
+##### 4.) Finally deploy the application and your slack bot is up and running!

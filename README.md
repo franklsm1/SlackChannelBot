@@ -1,7 +1,7 @@
 # Slack Channel Bot
-A channel bot built with Node-RED on IBM Bluemix
+### A Slack channel bot built with Node-RED on IBM Bluemix
 
-The bot will make a post in the specified channel every time a new channel is created (exluding private and archived channels). The post will let everyone know the name and any info that was provided about it. You would think slack has this implemented as a configuration, but they do not.
+The bot will make a post in the specified channel every time a new channel is created (exluding private and archived channels). The post will let everyone know the name and any info that was provided about it. You would think Slack has this implemented as a configuration, but they do not.
 
 ##### Two example channel bot outputs (one with a channel description and the other without):
 ![alt tag](https://github.com/franklsm1/SlackChannelBot/blob/master/exampleBot.png)

@@ -24,12 +24,12 @@ The bot will make a post in the specified channel every time a new channel is cr
   -For both of the "Channel count message" and "Update channel count" Cloudant DB nodes you will need to select the cloudant DB service that is running with your Node.js application and update the database name that is setup for your service (if using the Node-Red boilerplate in Bluemix the default name of the database is "nodered").
   
 ##### 3.) Next you will need to create a new document inside your cloudant DB:
-    To create this documents you will need to click on the Cloudant NoSQL DB service from your bluemix dashboard. Once clicked you
-    will see a page that explains about your Cloudant NoSQL DB and it will contain a button that says "LAUNCH". Click that button. A
-    new tab will now open with options for your Cloudant NoSQL DB. Click on the "nodered" database name that is, created by default as
-    part of the boiler plate creation. Next click the plus symbol at the end of the "All Documents" tab, followed by clicking the "New
-    Doc" tab that will appear. Then paste the following properties into the document and click the "Create Document" button.
-    
+  To create this documents you will need to click on the Cloudant NoSQL DB service from your bluemix dashboard. Once clicked you
+  will see a page that explains about your Cloudant NoSQL DB and it will contain a button that says "LAUNCH". Click that button. A  
+  new tab will now open with options for your Cloudant NoSQL DB. Click on the "nodered" database name that is, created by default as
+  part of the boiler plate creation. Next click the plus symbol at the end of the "All Documents" tab, followed by clicking the "New
+  Doc" tab that will appear. Then paste the following properties into the document and click the "Create Document" button.
+  
   {
     "_id": "channelCount",
     "count": 0

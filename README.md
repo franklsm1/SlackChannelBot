@@ -17,7 +17,7 @@ The bot will make a post in the specified channel every time a new channel is cr
 
 ##### 2.) Next you will need to update the 4 nodes outlined in red from the above image.
   
-  -For the "Get Slack Channel List" node you will need to create a new slack bot, https://my.slack.com/services/new/bot, and then replace the text "\<Slack API Bot Token Goes Here\>" with the API token you are given for your bot into the node.
+  -For the "Get Slack Channel List" node you will need to create a new slack bot with in your slack settings, https://my.slack.com/services/new/bot, and then replace the text "\<Slack API Bot Token Goes Here\>" with the API token you are given for your bot into the node.
   
   -For the "Slack Response" node you will need to enable incoming webhooks for your slack team if you have not done so already, https://my.slack.com/services/new/incoming-webhook/. Then you will need to replace the text of the URL field, "\<Slack Incoming Webhook URL Goes Here\>", with the Webhook URL that was created for you.
   

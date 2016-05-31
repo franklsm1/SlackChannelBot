@@ -33,4 +33,6 @@ To create this documents you will need to click on the Cloudant NoSQL DB service
   
   -The count value can be left at 0 (the bot will make an initial post to update the value) or you can set it to your current channel count (not including archived and private channels)
   
+  ![alt tag](https://github.com/franklsm1/SO_DW_slackBot/blob/master/DBCreate.png)
+  
 ##### 4.) Finally deploy the application and your slack bot is up and running!
